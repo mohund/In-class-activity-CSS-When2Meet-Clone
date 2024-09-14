@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+   }
+   
+   nav h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1px 15px 18px 20px;
+    
+   }
+   nav{
+    background-color: rgb(54, 115, 125);
+    padding-bottom: 20px;
+    
+   }
+    nav  ul li {
+    display: inline;
+    margin-left:    20px ;
+    padding-right: 30px;
+    padding-left:20px;
+    
+   }
+   ul li:last-child{
+    float: right;
+    margin-right: 0px;
+}
+   nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.7s ease ;
+}
+nav a:hover{
+    color: #3fbef5;
+}
+
+#CreateEvent{
+    background-color: rgb(54, 115, 125);
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+   
+}
+
+#CreateEvent label{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 1px 15px 18px 20px;
+}
+
+#CreateEvent button , select ,input{
+    cursor: pointer;
+    
+}
+
+#CreateEvent button {
+   
+float: right;
+    
+}
+
+
+
+button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+   border-radius: .5rem; 
+   letter-spacing: 1.1px;
+   padding: 5px;
+   font-size: 22px;
+   margin-left: 20px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+   transition: 0.7s ease ;
+}
+
+ button:hover{
+    background-color:#325dd3 ;
+    transform: scale(1.1);
+}
+
+
+#InputAvailability  {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(54, 115, 125);
+    width: 40%;
+    margin:  auto;
+    padding: 4%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+#InputAvailability table{
+    text-align: center;
+    margin: 0 auto;
+    padding:3% ;
+    font-size: medium;
+}
+
+#InputAvailability table th, td {
+    padding: 10px;
+}
+
+
+
+
+#ViewResults{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(54, 115, 125);
+    width: 40%;
+    margin:  auto;
+    padding: 4%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#ViewResults table  {
+    padding-bottom: 25px;
+}
+
+
+#SignUp{
+    text-align: center;
+    background-color: rgb(54, 115, 125);
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+   
+}
+
+
+#SignUp label{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding-top: 25px;
+    
+}
+
+#SignUp button  ,input{
+    cursor: pointer;
+}
+
+#SignUp input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(54, 115, 125);
+}
